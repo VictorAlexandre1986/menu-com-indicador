@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0f1219;
+}
+
+nav{
+    position:relative;
+    display:flex;
+    background: #1e232f;
+    padding: 10px 0 ;
+}
+
+nav a {
+    position: relative;
+    text-decoration:none;
+    padding: 15px 25px;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+}
+
+#marker{
+    position:absolute;
+    bottom:0;
+    height: 100%;
+    width: 90px;
+    border-bottom: 5px solid #08f9ff;
+    background: linear-gradient(0deg,#08f9ff33,transparent);
+    transition: 0.5s;
+    pointer-events:none;
+    filter: drop-shadow(0 5px 25px #08f9ff)
+}
